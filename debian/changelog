@@ -1,4 +1,4 @@
-netrunner-settings-autostart (1.0) wily; urgency=medium
+default-settings-autostart (1.0) wily; urgency=medium
 
   * Initial release
 
