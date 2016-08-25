@@ -7,7 +7,7 @@ Standards-Version: 3.7.2
 
 Package: default-settings-autostart
 Architecture: all
-Replaces: netrunner-system (<< 1.1.4)
-Breaks: netrunner-system (<< 1.1.4)
+Replaces: netrunner-system (<< 1.1.4), c1-netrunner-core-settings (<< 0+p8+git20160825)
+Breaks: netrunner-system (<< 1.1.4), c1-netrunner-core-settings (<< 0+p8+git20160825)
 Description: Autostart files
   This package provides the default autostart files of Maui/Netrunner.
