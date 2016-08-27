@@ -1,11 +1,11 @@
-Source: default-settings-autostart
+Source: netrunner-settings-autostart
 Section: admin
 Priority: optional
 Maintainer: Leszek Lesner <leszek@zevenos.com>
 Build-Depends: debhelper (>= 9)
 Standards-Version: 3.7.2
 
-Package: default-settings-autostart
+Package: netrunner-settings-autostart
 Architecture: all
 Recommends: novnc, x11vnc
 Replaces: netrunner-system (<< 1.1.4), c1-netrunner-core-settings (<< 0+p8+git20160825)
