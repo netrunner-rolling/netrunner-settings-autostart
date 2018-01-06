@@ -2,7 +2,7 @@
 [Desktop Entry]
 Comment[en_US]=
 Comment=
-Exec=kstart5 --skiptaskbar --window "(.*)Firefox(.*)" ksystraycmd5 --window "(.*)Firefox(.*)" --hidden firefox &
+Exec=kstart5 --skiptaskbar --window "(.*)Firefox(.*)" -- ksystraycmd5 --window "(.*)Firefox(.*)" --hidden firefox &
 GenericName[en_US]=
 GenericName=
 Icon=system-run
