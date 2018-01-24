@@ -2,7 +2,7 @@
 [Desktop Entry]
 Comment[en_US]=
 Comment=
-Exec=ksystraycmd5 --hidden firefox &
+Exec=ksystraycmd5 --hidden firefox about:blank &
 GenericName[en_US]=
 GenericName=
 Icon=system-run
