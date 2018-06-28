@@ -1,14 +1,15 @@
-#!/usr/bin/env xdg-open
 [Desktop Entry]
 Comment[en_US]=
 Comment=
-Exec=ksystraycmd5 --hidden firefox about:blank &
+Exec=sleep 2 & ksystraycmd5 --hidden firefox about:blank &
 GenericName[en_US]=
 GenericName=
-Icon=system-run
+Hidden=false
+Icon=firefox
 MimeType=
 Name[en_US]=Firefox Preload
 Name=Firefox Preload
+NoDisplay=false
 Path=
 StartupNotify=true
 Terminal=false
@@ -16,5 +17,7 @@ TerminalOptions=
 Type=Application
 X-DBUS-ServiceName=
 X-DBUS-StartupType=
+X-GNOME-Autostart-enabled=true
 X-KDE-SubstituteUID=false
 X-KDE-Username=
+X-KDE-autostart-phase=2
