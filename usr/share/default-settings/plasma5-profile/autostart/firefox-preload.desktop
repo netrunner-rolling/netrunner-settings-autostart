@@ -1,7 +1,7 @@
 [Desktop Entry]
 Comment[en_US]=
 Comment=
-Exec=sleep 2 & ksystraycmd5 --hidden firefox about:blank &
+Exec=sleep 2 && ksystraycmd5 --hidden GTK_USE_PORTAL=1 /usr/lib/firefox/firefox %u about:blank
 GenericName[en_US]=
 GenericName=
 Hidden=false
